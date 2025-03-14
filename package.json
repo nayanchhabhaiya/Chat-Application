@@ -1,0 +1,27 @@
+{
+  "name": "chatwebapp",
+  "version": "1.0.0",
+  "description": "A real-time chat application with multiple rooms and user authentication",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "real-time",
+    "socket.io",
+    "express",
+    "websockets"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
