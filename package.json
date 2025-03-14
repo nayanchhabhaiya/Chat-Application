@@ -1,7 +1,7 @@
 {
-  "name": "chatwebapp",
+  "name": "chatapp",
   "version": "1.0.0",
-  "description": "A real-time chat application with multiple rooms and user authentication",
+  "description": "Chat Application",
   "main": "server/index.js",
   "scripts": {
     "start": "node server/index.js",
